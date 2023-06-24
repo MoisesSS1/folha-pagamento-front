@@ -1,0 +1,25 @@
+.container-message {
+  position: absolute;
+  top: 40%;
+  margin: 0 auto;
+  font-size: 1.1em;
+  font-family: sans-serif;
+  z-index: 1;
+}
+
+#message {
+  border-radius: 15px;
+  border-style: none;
+  transition: 0.3s;
+  color: rgb(3, 3, 3);
+
+  padding: 20px;
+}
+
+.error {
+  background: rgb(221, 82, 82);
+}
+
+.sucess {
+  background: rgb(82, 221, 82);
+}

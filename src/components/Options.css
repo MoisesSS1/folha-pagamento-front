@@ -1,0 +1,17 @@
+#Options {
+  color: salmon;
+  font-size: 1.3em;
+  list-style: none;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+#Options li:hover {
+  cursor: pointer;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
